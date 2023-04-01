@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AWS Club IGDTUW</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+			crossorigin="anonymous" />
+	</head>
+	<body>
+		<header>
+			<h1><img src="assets/aws-logo.png" alt="AWS Icon" />AWS Club IGDTUW</h1>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Events</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Team</a></li>
+					<li
+						><a href="#"><i class="fab fa-linkedin"></i></a
+					></li>
+					<li
+						><a href="#"><i class="fab fa-instagram"></i></a
+					></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="aws-section">
+			<div class="slider">
+				<div class="slide">
+					<h2>AWS is coming to IGDTUW</h2>
+					<h3>Get ready for an exciting journey with AWS</h3>
+					<button class="aws-section-button">Learn More</button>
+				</div>
+				<div class="slide">
+					<h2>Advantage 1</h2>
+					<p>
+						AWS provides a secure and scalable cloud computing platform that can
+						help businesses of any size grow and innovate.
+					</p>
+				</div>
+				<div class="slide">
+					<h2>Advantage 2</h2>
+					<p>
+						AWS offers over 200 fully featured services for computing, storage,
+						databases, analytics, networking, mobile, and IoT applications.
+					</p>
+				</div>
+				<div class="slide">
+					<h2>Advantage 3</h2>
+					<p>
+						AWS provides a global infrastructure that enables you to deploy
+						applications and data in multiple regions around the world with just
+						a few clicks.
+					</p>
+				</div>
+				<div class="slide">
+					<h2>Advantage 4</h2>
+					<p>
+						AWS provides cost-effective solutions that enable you to pay only
+						for what you use and scale your resources up or down based on your
+						needs.
+					</p>
+				</div>
+			</div>
+		</div>
+		<main>
+			<section id="about">
+				<h2>About AWS</h2>
+				<p
+					>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
+					ultrices nisl. Nulla commodo orci eu nulla consectetur, eu dapibus
+					quam faucibus. Integer in pulvinar enim. Sed euismod turpis vitae
+					consectetur faucibus. Duis gravida orci eu augue sollicitudin, eu
+					tristique lectus pellentesque. Donec commodo, ex eget eleifend
+					ultricies, lorem ipsum consectetur augue, a feugiat enim eros in
+					sapien. In pretium, orci vel feugiat mattis, turpis velit bibendum
+					magna, vitae euismod orci nibh at justo. Sed in luctus lorem.</p
+				>
+			</section>
+			<section id="events">
+				<h2>Events</h2>
+				<div class="events-container">
+					<div class="upcoming-events">
+						<h2>Upcoming Events</h2>
+						<ul>
+							<li>Event 1 - Date</li>
+							<li>Event 2 - Date</li>
+							<li>Event 3 - Date</li>
+						</ul>
+					</div>
+					<div class="past-events">
+						<h2>Past Events</h2>
+						<ul>
+							<li>Event 1 - Date</li>
+							<li>Event 2 - Date</li>
+							<li>Event 3 - Date</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section id="resources">
+				<h2>Resources</h2>
+				<div class="article-container">
+					<div class="article-box">
+						<img
+							src="https://dummyimage.com/300x200/000/fff"
+							alt="Article Image" />
+						<h3>Article Title 1</h3>
+						<p>Short summary of the article content goes here...</p>
+						<a href="#">Read more</a>
+					</div>
+					<div class="article-box">
+						<img
+							src="https://dummyimage.com/300x200/000/fff"
+							alt="Article Image" />
+						<h3>Article Title 2</h3>
+						<p>Short summary of the article content goes here...</p>
+						<a href="#">Read more</a>
+					</div>
+					<div class="article-box">
+						<img
+							src="https://dummyimage.com/300x200/000/fff"
+							alt="Article Image" />
+						<h3>Article Title 3</h3>
+						<p>Short summary of the article content goes here...</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+			</section>
+
+			<section id="team">
+				<h2>Our Team</h2>
+				<div class="member">
+					<img src="assets/user-icon.png" alt="Member 1" />
+					<h3>Member 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<div class="member">
+					<img src="assets/user-icon.png" alt="Member 2" />
+					<h3>Member 2</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<div class="member">
+					<img src="assets/user-icon.png" alt="Member 3" />
+					<h3>Member 3</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<p>&copy; 2023 IGDTUW AWS Club</p>
+		</footer>
+		<script>
+			$(document).ready(function () {
+				$(".slider").slick({
+					autoplay: true,
+					autoplaySpeed: 5000,
+					dots: true,
+					arrows: false,
+				});
+			});
+		</script>
+	</body>
+</html>

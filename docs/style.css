@@ -15,7 +15,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #232f3e;
+  background-color: #005276;
   color: #fff;
   padding: 10px;
 }
@@ -26,7 +26,7 @@ header h1 {
 }
 
 header h1 img {
-  height: 80px;
+  height: 100px;
   margin-right: 10px;
 }
 
@@ -46,7 +46,7 @@ header nav li a {
 
 /* AWS Section Styles */
 .aws-section {
-  background-color: #232f3e;
+  background-color: #005276;
   color: white;
   padding: 80px 0;
   position: relative; 
@@ -73,11 +73,16 @@ header nav li a {
 .slider {
   margin: 0 auto;
   max-width: 800px;
+  height: 100%;
 }
 
 .slide {
   text-align: center;
+  height: 500px; /* Set a fixed height for the slide */
+  background-size: cover;
+  background-position: center;
 }
+
 
 .slide h2 {
   color: #ffffff;
@@ -136,12 +141,12 @@ header nav li a {
 }
 
 .upcoming-events {
-  background-color: #f2f2f2;
+  background-color: #F1F3F3;
   padding: 20px;
 }
 
 .past-events {
-  background-color: #f2f2f2;
+  background-color: #F1F3F3;
   padding: 20px;
 }
 
@@ -242,7 +247,8 @@ header nav li a {
 }
 
 .member img {
-  height: 80px;
+  height: 200px;
+  width: 200px;
   margin-bottom: 10px;
 }
 
